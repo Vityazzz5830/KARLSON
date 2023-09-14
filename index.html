@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<title>КАРЛСОН / Главная</title>
+</head>
+<body>
+	<header>
+		<div class="full_container">
+			<div class="main__container">
+				<div class="header_container">
+					<div class="header_logo">
+						<a href="index.html">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="header_rightpart">
+						<div class="header_rightpart-call">
+							<a href="orderdelivery.html">Заказать доставку</a>
+						</div>
+						<div class="header_rightpart-navmenu">
+							<nav>
+								<ul class="header_rightpart-navmenu-list">
+									<li>
+										<a href="#">
+											Тарифы
+										</a>
+									</li>
+									<li class="dropdown">
+										  <a href="#" class="dropbtn">
+											<p>Услуги</p>
+											<img src="img/wrap_arrow.svg" alt="">
+										</a>
+										  <div class="dropdown-content">
+										    <a href="#">Услуга 1</a>
+										    <a href="#">Услуга 2</a>
+										    <a href="#">Услуга 3</a>
+										  </div>
+									</li>
+									<li class="dropdown">
+										  <a href="#" class="dropbtn">
+											<p>Курьеру</p>
+											<img src="img/wrap_arrow.svg" alt="">
+										</a>
+										  <div class="dropdown-content">
+										    <a href="#">Пункт 1</a>
+										    <a href="#">Пункт 2</a>
+										    <a href="#">Пункт 3</a>
+										  </div>
+									</li>
+									<li>
+										<a href="tracktheorder.html">
+											Отследить заказ
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Отзывы
+										</a>
+									</li>
+									<li>
+										<a data-custom-open="modal-login">
+											Войти
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header_rightpart-reg">
+							<a data-custom-open="modal-login">Вход/</a>
+							<a data-custom-open="modal-reg">Регистрация</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="main_delivery">
+		<div class="main__container">
+			<div class="main_delivery-container">
+				<h1 class="upper"><b>Курьерская доставка</b> <br> для бизнеса и не только</h1>
+				<div class="main_delivery-calculate">
+					<div class="main_delivery-calculate-header">
+						<button class="main_delivery-calculate-header-buttonleft">
+							Расчет стоимости
+						</button>
+						<a class="main_delivery-calculate-header-buttonright" href="tracktheorder.html" >
+							Отследить заказ
+						</a>
+					</div>
+					<div class="main_delivery-calculate-form">
+						<form class="form" action="#" method="POST">
+							<div class="main_delivery-calculate-form-input-container">
+								<img src="img/geo_input.svg" alt="">
+								<input type="text" placeholder="Адрес отправки" required="">
+							</div>
+							<div class="main_delivery-calculate-form-input-container">
+								<img src="img/geo_input.svg" alt="">
+								<input type="text" placeholder="Адрес доставки" required="">
+							</div>
+							
+							<div class="form-radiobuttons">	
+							<div class="form_radio_btn">
+								<input id="radio-1" type="radio" name="radio" value="1" checked>
+								<label for="radio-1">Пешком</label>
+							</div>
+							<div class="form_radio_btn">
+								<input id="radio-2" type="radio" name="radio" value="2">
+								<label for="radio-2">Автомобилем</label>
+							</div>
+							<div class="form_radio_btn">
+								<input id="radio-3" type="radio" name="radio" value="3">
+								<label for="radio-3">Грузовиком</label>
+							</div>
+						</div>
+						<button class="main_delivery-calculate-form-sendbutton" type="submit">
+							Рассчитать стоимость
+						</button>
+						</form>
+					</div>
+				</div>
+				<div class="main_delivery-solution">
+					<div class="main_delivery-solution-title">
+						<p class="upper">Решаем вопрос срочной<br> курьерской доставки<br> и логистики по городу</p>
+					</div>
+				</div>
+				<div class="blur">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="delivery_intime">
+		<div class="main__container">
+			<div class="delivery_intime-container">
+				<h2><b>ДОСТАВИМ</b> ВОВРЕМЯ ИЛИ БЕСПЛАТНО!</h2>
+				<div class="delivery_intime-container-title">
+					<p>Курьерская служба «Карлсон»‎ помогает малому и среднему бизнесу решить проблему с доставкой,<br>беря на себя все этапы транспортировки груза. Благодаря чему у владельцев компаний и магазинов появляется возможность сконцентрироваться на развитии своего дела. <br>Также наш сервис полезен для обычных людей, когда нужно срочно доставить посылку, <br>либо если требуется что-то купить и принести на адрес.</p>
+				</div>
+				<div class="delivery_intime-container-advantages">
+					<div class="delivery_intime-container-advantages-leftpart">
+						<img src="img/geo_background.png" alt="">
+					</div>
+					<div class="delivery_intime-container-advantages-rightpart">
+						<div class="delivery_intime-container-advantages-rightpart-item">
+							<img src="img/advantages_marker.png" alt="">
+							<p class="upper">Примем оплату за товар и переведём деньги вам</p>
+						</div>
+						<div class="delivery_intime-container-advantages-rightpart-item">
+							<img src="img/advantages_marker.png" alt="">
+							<p class="upper">Расчетно-кассовое обслуживание <b>всего 2%</b> от стоимости</p>
+						</div>
+						<div class="delivery_intime-container-advantages-rightpart-item">
+							<img src="img/advantages_marker.png" alt="">
+							<p class="upper">Выкуп и доставка товара</p>
+						</div>
+						<div class="delivery_intime-container-advantages-rightpart-item">
+							<img src="img/advantages_marker.png" alt="">
+							<p class="upper"><b>100% страховка</b> груза</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="delivery_intime-container-business">
+					<img src="img/city_delivery.png" alt="">
+					<img src="img/man_delivery.png" alt="">
+					<h2 class="upper">Доставка для бизнеса </h2>
+					<div class="delivery_intime-container-business-content">
+						<p>Предоставим качественный сервис, осуществим <br>контроль вашей доставки и соберём оплату</p>
+						<a href="#">Оставить заявку</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section class="fastdelivery">
+		<div class="main__container main__container-slider">
+			<div class="fastdelivery-content">
+				<h2 class="upper"><b>Быстрая и надёжная доставка</b><br>для любого бизнеса </h2>
+				<div class="fastdelivery-content-advantages">
+					<div class="fastdelivery-content-advantages-list">
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Интернет-<br>заказы</h3>
+							<img src="img/package 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Продукты</h3>
+							<img src="img/milk-box 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Рестораны</h3>
+							<img src="img/take-away 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Лекарства</h3>
+							<img src="img/pill 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Одежда</h3>
+							<img src="img/paper-bag 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Цветы<br>и подарки</h3>
+							<img src="img/round 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Документы</h3>
+							<img src="img/envelope 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+						<div class="fastdelivery-content-advantages-list-item">
+							<h3>Всё, что угодно</h3>
+							<img src="img/tin-can 1.svg" alt="">
+							<div class="fastdelivery-content-advantages-list-item-modal">
+								<p>Курьерская служба <br> «Карлсон»‎ помогает <br> малому и среднему <br> бизнесу </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="blur blur-two">
+					
+				</div>
+				<div class="fastdelivery-search">
+					<h2 class="upper">Ищете доставку для бизнеса?</h2>
+					<div class="fastdelivery-search-content">
+						<p>Оставьте заявку и мы свяжемся с вами, чтобы обсудить условия сотрудничества. <br> С вас - заявка, с нас – быстрая и надежная доставка.</p>
+						<a href="#">Оставить заявку</a>
+					</div>
+				</div>
+				<div class="fastdelivery-slider-container">
+					<div class="fastdelivery-slider">
+					<div class="fastdelivery-slider-item">
+						<h2 class="upper"><b>Ваши покупатели <br></b>останутся<br> довольными</h2>
+						<ul class="fastdelivery-slider-item-list">
+							<li>&nbsp; Брендированные SMS</li>
+							<li>&nbsp; Отслеживание доставки на карте</li>
+							<li>&nbsp; Удобное редактирование заказа</li>
+							<div class="blur blur-third">
+					
+							</div>
+						</ul>
+						<img src="img/slider_background.png" alt="">
+						
+					</div>
+					<div class="fastdelivery-slider-item">
+						<h2 class="upper"><b>Ваши покупатели <br></b>останутся<br> довольными</h2>
+						<ul class="fastdelivery-slider-item-list">
+							<li>&nbsp; Брендированные SMS</li>
+							<li>&nbsp; Отслеживание доставки на карте</li>
+							<li>&nbsp; Удобное редактирование заказа</li>
+							<div class="blur blur-third">
+					
+							</div>
+						</ul>
+						<img src="img/slider_background.png" alt="">
+					</div>
+					<div class="fastdelivery-slider-item">
+						<h2 class="upper"><b>Ваши покупатели <br></b>останутся<br> довольными</h2>
+						<ul class="fastdelivery-slider-item-list">
+							<li>&nbsp; Брендированные SMS</li>
+							<li>&nbsp; Отслеживание доставки на карте</li>
+							<li>&nbsp; Удобное редактирование заказа</li>
+							<div class="blur blur-third">
+					
+							</div>
+						</ul>
+						<img src="img/slider_background.png" alt="">
+					</div>
+
+				</div>
+					<div class="fastdelivery-slider-arrowleft">
+						
+					</div>
+					<div class="fastdelivery-slider-arrowright">
+						
+					</div>	
+				</div>
+				<div class="fastdelivery-list-uppart">
+					<div class="fastdelivery-list-item">
+						<img src="img/package (1) 1.svg" alt="">
+						<h3>Бесплатно <br>заберут ваш груз</h3>
+						<p>Курьеров в городе так <br> много, что ближайший <br> исполнитель заберет ваш<br> заказ</p>
+					</div>
+					<div class="fastdelivery-list-item">
+						<img src="img/package (2) 1.svg" alt="">
+						<h3>100% страховка<br> отправлений</h3>
+						<p>Компенсируем объявленную<br> вами ценность в случае<br> потери или повреждения<br> груза</p>
+					</div>
+					<div class="fastdelivery-list-item">
+						<img src="img/clipboard 1.svg" alt="">
+						<h3>Планируйте или создавайте<br> срочные доставки</h3>
+						<p>Планируйте доставку на<br> несколько день вперед или<br> вызывайте курьера сегодня</p>
+					</div>
+				</div>
+				<div class="fastdelivery-list-downpart">
+					<div class="fastdelivery-list-item">
+						<img src="img/telephone 1.svg" alt="">
+						<h3>Быстрая и отзывчивая<br> поддержка</h3>
+						<p>Наши менеджеры всегда<br>помогут Вам онлайн или по<br>телефону</p>
+					</div>
+					<div class="fastdelivery-list-item">
+						<img src="img/gps 1.svg" alt="">
+						<h3>Отслеживание заказа в <br>режиме реального времени</h3>
+						<p>Вы и ваши клиенты всегда<br>знают, где их заказ</p>
+					</div>
+					<div class="fastdelivery-list-item">
+						<img src="img/motorcycle 1.svg" alt="">
+						<h3>Можно без регистрации<br> и договора</h3>
+						<p>Оформляйте курьерскую<br> доставку без регистрации и<br> договора
+						</p>
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="delivery_yourself">
+		<div class="main__container">
+			<div class="delivery_yourself-content">
+				<h2 class="upper"><b>Оформляйте доставку сами</b><br>или подключите интеграцию </h2>
+				<div class="delivery_yourself-content-list">
+					<div class="delivery_yourself-content-list-item">
+						<h3>Интеграция по API</h3>
+						<p>Идеально для бизнеса<br>с самописной системой<br>оформления заказов</p>
+					</div>
+					<div class="delivery_yourself-content-list-item">
+						<h3>Доставка в корзине</h3>
+						<p>Модули интеграции:<br>например, приложение<br>для Shopify</p>
+					</div>
+					<div class="delivery_yourself-content-list-item">
+						<h3>Сайт и приложение</h3>
+						<p>Оформляйте доставку<br>быстро и просто на сайте<br>или в приложении</p>
+					</div>
+				</div>
+				<div class="delivery_yourself-content-getcourier">
+					<img src="img/woman_courier.png" alt="#">
+					
+					<div class="delivery_yourself-content-getcourier-container">
+						<h2 class="upper">Станьте  КУРЬЕРОМ В СВОЁМ ГОРОДЕ</h2>
+						<div class="delivery_yourself-content-getcourier-container-title">
+							<p>Доставляйте с нами и получайте деньги!<br>Зарегистрируйтесь онлайн за 9 минут</p>
+							<a href="#">Я в деле</a>
+						</div>
+						
+					</div>
+					<div class="blur blur-third">
+					
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section class="methodsofpayment">
+		<div class="main__container">
+			<div class="methodsofpayment-container">
+				<div class="methodsofpayment-container-leftpart">
+					<h2 class="upper">Способы оплаты</h2>
+					<p>Попробуйте доставку прямо сейчас<br> без договора и регистрации</p>
+					<div class="methodsofpayment-container-leftpart-buttons">
+						<a href="orderdelivery.html">Заказать доставку</a>
+						<a href="#">Напишите нам</a>
+					</div>
+					
+				</div>
+				<div class="methodsofpayment-container-rightpart">
+					<div class="methodsofpayment-container-rightpart-menu">
+						<div class="methodsofpayment-container-rightpart-menu-item">
+							<img src="img/peso 1.svg" alt="">
+							<p>Наличными</p>
+						</div>
+						<div class="methodsofpayment-container-rightpart-menu-item">
+							<img src="img/3d-credit-card 1.svg" alt="">
+							<p>Картой </p>
+						</div>
+						<div class="methodsofpayment-container-rightpart-menu-item">
+							<img src="img/wallet 1.svg" alt="">
+							<p>Авансом</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<footer>
+		<div class="full_container">
+			<div class="footer_content_uppart">
+				<div class="main__container">
+					<div class="footer_uppart">
+						<div class="footer_uppart-leftpart">
+							<a href="#">
+								<img src="img/logo.png" alt="">
+							</a>
+						</div>
+						<div class="footer_uppart-rightpart">
+							<div class="footer_uppart-rightpart-menu">
+								<nav class="footer_uppart-rightpart-navmenu">
+									<ul class="footer_uppart-rightpart-navmenu-list">
+										<li class="footer_uppart-rightpart-navmenu-list-item">
+											<a href="">Контакты</a>
+										</li>
+										<li class="footer_uppart-rightpart-navmenu-list-item">
+											<a href="">FAQ для заказчиков</a>
+										</li>
+										<li class="footer_uppart-rightpart-navmenu-list-item">
+											<a href="">Юрлицам</a>
+										</li>
+										<li class="footer_uppart-rightpart-navmenu-list-item">
+											<a href="">Регламент возмещения</a>
+										</li>
+										<li class="footer_uppart-rightpart-navmenu-list-item">
+											<a href="">Партнерская программа</a>
+										</li>
+										<li class="footer_uppart-rightpart-navmenu-list-item">
+											<a href="">Информация</a>
+										</li>
+										<li class="footer_uppart-rightpart-navmenu-list-item footer_uppart-rightpart-navmenu-list-item-callbutton">
+											<a href="">Обратная связь</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="full_container">
+			<div class="footer_content_centrepart">
+				<div class="main__container">
+					<div class="footer_content_centrepart-content">
+						<div class="footer_content_centrepart-content-leftparts">
+							<div class="footer_content_centrepart-content-leftparts-menu">
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p>ООО «Карлсон»</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>Москва:</b> +7 (495) 120-17-28</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>Екатеринбург:</b> +7 (343) 243-58-79</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>ИНН</b> 7814737269</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>Петербург:</b> +7 (812) 748-26-37</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>Казань:</b> +7 (843) 216-06-31</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>ОГРН</b> 1187847221650</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>Краснодар:</b> +7 (861) 205-04-93</p>
+								</div>
+								<div class="footer_content_centrepart-content-leftparts-menu-item">
+									<p><b>Email:</b> info@karlson.ru</p>
+								</div>
+							</div>
+						</div>
+						<div class="footer_content_centrepart-content-rightparts">
+							<div class="footer_content_centrepart-content-rightparts-menu">
+								<div class="footer_content_centrepart-content-rightparts-menu-item">
+									<a href="#"><img src="img/app-store.svg" alt=""></a>
+								</div>
+								<div class="footer_content_centrepart-content-rightparts-menu-item">
+									<a href="#"><img src="img/google-play.svg" alt=""></a>
+								</div>
+								<div class="footer_content_centrepart-content-rightparts-menu-item">
+									<a href="#"><img src="img/appgallery.svg" alt=""></a>
+								</div>
+								<div class="footer_content_centrepart-content-rightparts-menu-item footer_content_centrepart-content-rightparts-menu-item-VK">
+									<a href="#"><img src="img/VK.svg" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="full_container">
+			<div class="footer_content_downpart">
+				<div class="main__container">
+					<div class="footer_content_downpart-content">
+						<div class="footer_content_downpart-content-leftpart">
+							<p>© 2023 Сервис вызова курьера и пункты выдачи «Карлсон»</p>
+							<p>Современная система краудсорсинговой доставки для интернет-магазинов и частных лиц</p>
+						</div>
+						<div class="footer_content_downpart-content-leftpart-rightpart">
+							<a href="#">Политика конфедициальности</a>
+							<a href="#">Пользовательское соглашение</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal micromodal-slide" id="modal-reg" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        	<div class="modal__container-reg" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            	<div class="modal__content-reg">
+            		<div class="modal__content-reg-container">
+            			<h1>РЕГИСТРАЦИЯ</h1>
+            				<form action="" class="form_reg">
+								<div class="modal__content-reg-container-form-radiobuttons">	
+									<div class="modal__content-reg-container-form-radio-btn">
+										<input id="regradio-1" type="radio" name="radio" value="1" checked>
+										<label for="regradio-1">Заказчик физ.лицо</label>
+									</div>
+									<div class="modal__content-reg-container-form-radio-btn">
+										<input id="regradio-2" type="radio" name="radio" value="2">
+										<label for="regradio-2">Заказчик юр.лицо</label>
+									</div>
+									<div class="modal__content-reg-container-form-radio-btn">
+										<input id="regradio-3" type="radio" name="radio" value="3">
+										<label for="regradio-3">Курьер</label>
+									</div>
+								</div>
+				
+								<input type="text" placeholder="Ваше имя" required="">
+								<input type="text" placeholder="Придумайте пароль" required="">
+								<input type="email" placeholder="Электронная почта" required="">
+
+								<div class="modal__content-reg-container-phone">
+									<input type="text" placeholder="+7(___)___-__-__" data-tel-input required="">
+									<button type="button" class="">
+										Подтвердить
+									</button>
+								</div>
+								<div class="modal__content-reg-container-checkbox">
+									<input type="checkbox" name="" id="checkbox-reg">
+									<label for="checkbox-reg">Я принимаю <a href="#">пользовательское соглашение</a> </label>
+								</div>
+								<a class="modal__content-reg-container-promo" href="#">У ВАС ЕСТЬ ПРОМОКОД?</a>
+								<button class="modal__content-reg-sendbutton" type="submit">
+									Регистрация
+								</button>
+							</form>
+					</div>
+            	</div>
+           	</div>	
+        </div>
+    </div>
+
+
+
+     <div class="modal micromodal-slide" id="modal-login" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        	<div class="modal__container-login" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            	<div class="modal__content-login">
+            		<h1>ВХОД В ЛИЧНЫЙ КАБИНЕТ</h1>
+            		<div class="modal__content-login-container">
+            			
+            				<form action="" class="form_login">
+								<input type="text" placeholder="Ваше имя" required="">
+								<input type="text" placeholder="Придумайте пароль" required="">
+
+								<button class="modal__content-login-sendbutton" type="submit">
+									Войти
+								</button>
+							
+								<a class="modal__content-login-container-forgotpass" href="#">Забыли пароль?</a>
+							</form>
+					</div>
+            	</div>
+           	</div>	
+        </div>
+    </div>
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
+type="text/javascript"></script>
+	<script src="js/jquery-3.6.2.min.js"></script>
+	<script src="js/micromodal.min.js"></script>
+ 	<script src="js/modal.js"></script>
+		<script src="js/slick.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
